@@ -80,7 +80,7 @@ export default function SignIn({ setName }) {
               if (isComposed) return;
 
               if (e.key === 'Enter') {
-                // setName(e.target.value);
+                setName(e.target.value);
                 e.preventDefault();
               }
             }}
