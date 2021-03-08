@@ -9,6 +9,6 @@ export default () => {
   if (name === '') {
     return <SignIn setName={setName}/>;
   } else {
-    return <Main />;
+    return <Main name={name} />
   }
 };
