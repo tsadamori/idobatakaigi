@@ -77,11 +77,7 @@ export default function SignIn({ setName }) {
             autoFocus
             onChange={(e) => setString(e.target.value)}
             onKeyDown={(e) => {
-<<<<<<< HEAD
-              if (isComposed == true) return;
-=======
               if (isComposed) return;
->>>>>>> @{-1}
 
               if (e.key === 'Enter') {
                 // setName(e.target.value);
